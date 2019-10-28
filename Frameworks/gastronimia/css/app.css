@@ -1,0 +1,103 @@
+div{
+  border: 0px solid black;
+  padding: 1px;
+}
+
+body {
+
+ background-image: url("../img/fondo.jpg");
+ background-position: top center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: contain;
+
+}
+
+a
+{
+  font-size: 14px;
+  color: red;
+  padding: 1px;
+  text-align: justify;
+  color: black;
+}
+
+a:hover {
+  background-color: yellow;
+  font-weight:bold;
+  color: black;
+}
+
+.Menu1{
+  border-color: #FFFF;
+   border-width: 2px;
+   border-style: dotted;
+   }
+
+.divprincipal
+{
+  background-color: rgb(128,128,128); opacity: 0.9;">
+
+}
+
+.divencabezado
+{
+  background-color:#FAA014; opacity: 0.9;
+ }
+
+.divIzq
+{
+ background-color: #F6F281;
+}
+
+.dviDerecho
+{
+  background-color: #FBF9C1; opacity: 0.9;
+}
+
+.Titulo
+{
+  font-size: 30px;
+  color: red;
+  padding: 1px;
+  text-align: justify;
+  font-style: italic;
+}
+.TituloNota
+{
+  font-size: 26px;
+  color: red;
+  padding: 1px;
+  text-align: justify;
+}
+.SubTituloNota
+{
+  font-size: 16px;
+  color: black;
+  padding: 1px;
+  text-align: justify;
+  font-style: italic;
+}
+.Nota
+{
+  font-size: 14px;
+  color: black;
+  padding: 1px;
+  text-align: justify;
+}
+
+.animated-search-form[type=search] {
+  width: 10rem;
+  border: 0.125rem solid #e6e6e6;
+  box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.18);
+  border-radius: 0;
+  background-image: url("//image.ibb.co/i7NbrQ/search_icon_15.png");
+  background-position: 0.625rem 0.625rem;
+  background-repeat: no-repeat;
+  padding: 0.75rem 1.25rem 0.75rem 2rem;
+  transition: width 0.4s ease-in-out;
+}
+
+.animated-search-form[type=search]:focus {
+  width: 100%;
+}

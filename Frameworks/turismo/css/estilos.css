@@ -1,0 +1,49 @@
+body{
+  color: #6a1b9a purple darken-3;
+}
+.fondo {
+
+ background-image: url("../img/fondo.jpg");
+ background-position: top center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: contain;
+ border-radius: 1px;
+
+}
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+
+.imgLogo{
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+
+.Titulo
+{
+  font-size: 30px;
+  color: red;
+  padding: 1px;
+  text-align: justify;
+  font-style: italic;
+}
+
+.imgGaleria{
+    display:block;
+    margin:auto;
+    width: 100%;
+  }
+
+
+.AltoTotal2{
+  width: 300px;
+  height: 100%;
+  display:block;
+  margin:auto;
+    }
+.ImagenNota
+{
+  float: left;
+  margin-right: 20px;
+
+}

@@ -1,0 +1,76 @@
+/* Clase para darle estilos al body */
+.fondo-body {
+  background: #CCCCCC;
+}
+/* Clase para darle estilos a las columnas*/
+.logo-column {
+  margin-top: 0px;
+  background: #00678E;
+  min-height: 200px;
+  border: 1px dashed #FFFFFF;
+}
+.sociales-column {
+  margin-top: 0px;
+  background: #00678E;
+  min-height: 200px;
+  border: 1px dashed #FFFFFF;
+}
+
+.var-column {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.menu {
+  width: 100%;
+  border: 1px dashed #FFFFFF;
+  padding: 0px;
+  background: #FFFFFF;
+}
+
+p{
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: justify;
+}
+h3{
+
+    color: #FFFFFF;
+    padding: 10px;
+
+}
+.contenido{
+  padding: 10px;
+  background: #00678E;
+
+}
+.busqueda{
+  padding: 10px;
+  background: #FFFFFF;
+
+}
+@media (max-width: 770px) {
+  /* Clase para ocultar componentes HTML */
+  .right-column {
+    display: none;
+  }
+  .logo-column {
+    margin-top: 0px;
+    background: #00678E;
+    min-height: 200px;
+    border: 1px dashed #FFFFFF;
+    text-align: center;
+  }
+  .sociales-column {
+    margin-top: 0px;
+    background: #00678E;
+    min-height: 50px;
+    border: 1px dashed #FFFFFF;
+    text-align: center;
+  }
+  .var-column {
+    position:relative;
+  }
+}
